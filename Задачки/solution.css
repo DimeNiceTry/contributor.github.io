@@ -1,0 +1,38 @@
+    div {
+        width: 180px;
+        height: 180px;
+        background: repeating-conic-gradient(#654430 0, #654430 25%, #f7ebcc 0, #f7ebcc 50%);
+        background-size: 180px 180px;
+        position: relative;
+        flex-direction: column;
+    }
+
+
+
+    div:before {
+        position: absolute;
+        top: 12.5%;
+        left: 12.5%;
+        content: '';
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        background-color: #5f5d5e;
+        border: 3px solid#252324;
+        box-shadow: 0 0 0 5px #5f5d5e;
+    }
+
+    div:after {
+        position: absolute;
+        bottom: 12.5%;
+        right: 12.5%;
+        content: '';
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        background-color: #5f5d5e;
+        border: 3px solid#252324;
+        box-shadow: 0 0 0 5px #5f5d5e;
+
+    }
+
